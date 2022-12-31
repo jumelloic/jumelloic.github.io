@@ -9,7 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: All things Angular
-      uses: AhsanAyaz/angular-deploy-gh-pages-actions@1.3.2
+      uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.3.2
       with:
         github_access_token: ${{ secrets.ACCESS_TOKEN }}
         build_configuration: production # The build environment for the app. please look configurations in your angular.json
